@@ -1,0 +1,33 @@
+*{
+        font-family: "Space Mono", monospace;
+        font-weight: 400;
+        font-style: normal;
+        color: #ffffff
+}
+
+body{
+    background: radial-gradient(circle at center, #161616 0%, #000000 100%);
+    padding: 1em;
+}
+
+.container{
+    text-align: center;
+    margin: 0px auto;
+    border-radius: 7px;
+    border: solid 0.5px #ffffff;
+    padding: 1em;
+    height: 750px;
+    font-size: 1.6rem;
+    box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.2);
+    box-shadow: inset 0 0 15px rgba(255, 255, 255, 0.2);
+}
+
+.container p{
+    color: #888888
+}
+
+.btn{
+    color: #161616;
+    border-radius: 20px;
+    padding: 10px;
+}
